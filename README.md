@@ -45,7 +45,7 @@ This package contains a mail transport called `preview`. We recommend to only us
 
 ### Registering the preview middleware route
 
-The package can display a link to sent mails whenever they are sent. To use this feature, you must add the `Spatie\MailPreview\Http\Middleware\AddMailPreviewPopupToResponse` middleware to the `web` middleware group in your kernel.
+The package can display a link to sent mails whenever they are sent. To use this feature, you must add the `Spatie\MailPreview\Http\Middleware\AddMailPreviewOverlayToResponse` middleware to the `web` middleware group in your kernel.
 
 ```php
 // in app/Http/Kernel.php
