@@ -11,6 +11,7 @@ use Spatie\MailPreview\SentMails\SentMails;
 use Symfony\Component\Finder\SplFileInfo;
 use Symfony\Component\Mailer\SentMessage;
 use Symfony\Component\Mailer\Transport\AbstractTransport;
+use Symfony\Component\Mime\MessageConverter;
 
 class PreviewMailTransport extends AbstractTransport
 {
@@ -60,7 +61,7 @@ class PreviewMailTransport extends AbstractTransport
     {
         $messageInfo = $this->getMessageInfo($message);
 
-        return $messageInfo . $message->getOriginalMessage()->getBody()->bodyToString();
+        return $messageInfo . MessageConverter::toEmail($message->getOriginalMessage())->getHtmlBody();
     }
 
     protected function getEmlPreviewContent(SentMessage $message): string
