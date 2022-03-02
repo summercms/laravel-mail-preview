@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-mail-preview` will be documented in this file.
 
+## 6.0.1 - 2022-03-02
+
+## What's Changed
+
+- Fix wrong class in readme.md by @spoyntersmith in https://github.com/spatie/laravel-mail-preview/pull/80
+- Fix HTML preview for Laravel 9 by @mrk-j in https://github.com/spatie/laravel-mail-preview/pull/82
+
+## New Contributors
+
+- @spoyntersmith made their first contribution in https://github.com/spatie/laravel-mail-preview/pull/80
+
+**Full Changelog**: https://github.com/spatie/laravel-mail-preview/compare/6.0.0...6.0.1
+
 ## 6.0.0 - 2022-01-13
 
 - add support for Laravel 9
