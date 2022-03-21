@@ -280,7 +280,7 @@ Please see [UPGRADING](UPGRADING.md) for what to do to switch over from `themsai
 
 ## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
