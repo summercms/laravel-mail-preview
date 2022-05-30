@@ -23,6 +23,8 @@ class PreviewMailTransport extends AbstractTransport
 
     public function __construct(Filesystem $files, int $maximumLifeTimeInSeconds = 60)
     {
+        parent::__construct();
+
         $this->filesystem = $files;
 
         $this->maximumLifeTimeInSeconds = $maximumLifeTimeInSeconds;
