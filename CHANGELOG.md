@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-mail-preview` will be documented in this file.
 
+## 6.0.2 - 2022-05-30
+
+### What's Changed
+
+- Run parent transport constructor by @mrk-j in https://github.com/spatie/laravel-mail-preview/pull/83
+
+**Full Changelog**: https://github.com/spatie/laravel-mail-preview/compare/6.0.1...6.0.2
+
 ## 6.0.1 - 2022-03-02
 
 ## What's Changed
