@@ -2,6 +2,18 @@
 
 All notable changes to `laravel-mail-preview` will be documented in this file.
 
+## 6.0.3 - 2022-08-19
+
+### What's Changed
+
+- fix: make setTimeoutInSeconds works by @bernardo-campos in https://github.com/spatie/laravel-mail-preview/pull/97
+
+### New Contributors
+
+- @bernardo-campos made their first contribution in https://github.com/spatie/laravel-mail-preview/pull/97
+
+**Full Changelog**: https://github.com/spatie/laravel-mail-preview/compare/6.0.2...6.0.3
+
 ## 6.0.2 - 2022-05-30
 
 ### What's Changed
