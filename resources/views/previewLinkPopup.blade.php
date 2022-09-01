@@ -22,13 +22,16 @@
            position: absolute;
            top: 2px;
            right: 6px;
-           font-family: monospace;">X</span>
+           font-family: monospace;
+    ">
+        X
+    </span>
 </div>
 <script type="text/javascript">
     function closePopup() {
         document.body.removeChild(document.getElementById('MailPreviewDriverBox'));
     }
     @if($timeoutInSeconds)
-        setTimeout(closePopup(), {{ $timeoutInSeconds }} * 1000);
+        setTimeout(closePopup, {{ $timeoutInSeconds }} * 1000);
     @endif
 </script>
