@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-mail-preview` will be documented in this file.
 
+## 6.0.4 - 2022-09-01
+
+### What's Changed
+
+- Prevent closePopup from running immediately by @mrk-j in https://github.com/spatie/laravel-mail-preview/pull/98
+
+**Full Changelog**: https://github.com/spatie/laravel-mail-preview/compare/6.0.3...6.0.4
+
 ## 6.0.3 - 2022-08-19
 
 ### What's Changed
