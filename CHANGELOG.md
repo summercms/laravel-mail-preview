@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-mail-preview` will be documented in this file.
 
+## 6.0.5 - 2023-01-25
+
+- support L10
+
+**Full Changelog**: https://github.com/spatie/laravel-mail-preview/compare/6.0.4...6.0.5
+
 ## 6.0.4 - 2022-09-01
 
 ### What's Changed
